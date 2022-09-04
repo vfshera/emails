@@ -1,0 +1,308 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <!-- whole image section -->
+      <mj-class name="image__section" background-color="#f1f4f6" padding="0" padding-top="20px" />
+
+      <!-- column in image section -->
+      <mj-class name="image__column" width="90%" padding="0" />
+
+      <!-- image content section -->
+      <mj-class name="image__content__section" background-color="#f1f4f6" padding="0" padding-bottom="50px" />
+
+      <!-- image content column -->
+      <mj-class name="image__content__column" width="90%" background-color="#d7dee6" padding="20px 10px" />
+
+      <!-- image content title -->
+      <mj-class name="image__content__title" font-size="23px" line-height="31px" letter-spacing="0.01em" padding="0px 20px" />
+
+      <!-- image content title -->
+      <mj-class name="image__content__ul__wrapper" padding="0" font-size="15px" line-height="22px" letter-spacing="0.01em" />
+
+      <!-- quote -->
+      <mj-class name="quote" background-color="#f1f4f6" />
+
+      <!-- quote column-->
+      <mj-class name="quote__column" width="100%" padding="20px 80px" />
+
+      <!-- quote sign -->
+      <mj-class name="quote__sign" width="46px" />
+
+
+      <!-- quote text-->
+      <mj-class name="quote__text" font-size="17px" line-height="25px" align="center" letter-spacing="0.01em" />
+
+      <!-- quote text-->
+      <mj-class name="quote__stars" width="170px" />
+
+
+      <!-- quote author-->
+      <mj-class name="qoute__author" font-size="20px" font-weight="bold" line-height="30px" color="#022ea8" align="center" />
+
+
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+    <mj-hero height="350px" padding="40px 20px" background-url="https://d3k81ch9hvuctc.cloudfront.net/company/R8xQKv/images/0d798704-5807-427d-9b28-83f0f0170ae6.png">
+
+      <mj-text font-size="28px" font-weight="semi-bold" letter-spacing="5px">
+        ELYSIUM
+      </mj-text>
+
+      <mj-spacer height="50px" />
+
+      <mj-text font-size="43px">
+        <span style="color: #0053F4; font-weight: bold;">25% Off*</span>
+        Healthier Aging
+      </mj-text>
+
+      <mj-spacer height="20px" />
+
+      <mj-button href="https://github.com/franklinshera/emails" background-color="#ffffff" width="50%" font-weight="bold" color="#0053F4" align="left" border-radius="20px">
+        Activate my offer
+      </mj-button>
+
+    </mj-hero>
+
+
+    <mj-section background-color="#f1f4f6">
+      <mj-column width="100%">
+        <mj-text font-size="20px" line-height="27px">
+          Give your health routine a boost with science.
+          Oxford, Yale and other leading research institutions.
+          Our research and development happens in partnership with
+        </mj-text>
+
+        <mj-text font-weight="600" font-size="20px" line-height="27px">
+          For a limited time, try one (or more) of our proven products with <span style="color:#0053F4; ">25% off*</span>
+          your first shipment of a monthly plan with code <span style="color:#0053F4; ">TRY25</span>
+        </mj-text>
+
+        <mj-spacer height="25px" />
+
+        <mj-button font-size="16px" line-height="25px" href="https://github.com/franklinshera/emails" background-color="#022ea8" width="50%" font-weight="bold" color="#ffffff" align="center" border-radius="25px">
+          Activate my offer
+        </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+
+    <!-- product -->
+    <mj-section mj-class="image__section">
+      <mj-column mj-class="image__column">
+        <mj-image padding="0" src="https://d3k81ch9hvuctc.cloudfront.net/company/R8xQKv/images/d3d2af37-487f-4560-9e6c-ece5321a74ae.png" alt="Basis" />
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="image__content__section">
+      <mj-column mj-class="image__content__column">
+        <mj-spacer height="10px" />
+        <mj-text mj-class="image__content__title">
+          Basis
+        </mj-text>
+
+        <mj-text mj-class="image__content__ul__wrapper">
+          <ul style="padding:0px 40px">
+            <li>
+              Developed by leading aging researcher Leonard Guarente Ph.D.
+            </li>
+
+            <li>
+
+              Maintain healthy DNA,<span style="font-weight: bold;">combats cellular aging</span>
+            </li>
+
+
+            <li>
+              Clinically proven to
+              <span style="font-weight: bold;">increase NAD+</span> through the precursor NR.
+            </li>
+          </ul>
+        </mj-text>
+
+
+      </mj-column>
+    </mj-section>
+
+    <!-- end product -->
+
+    <!-- product -->
+    <mj-section mj-class="image__section">
+      <mj-column mj-class="image__column">
+        <mj-image padding="0" src="https://d3k81ch9hvuctc.cloudfront.net/company/R8xQKv/images/9d270fc1-cb64-4d4e-9dde-b652dd971ada.png" alt="Matter" />
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="image__content__section">
+      <mj-column mj-class="image__content__column">
+        <mj-spacer height="10px" />
+        <mj-text mj-class="image__content__title">
+          Matter
+        </mj-text>
+
+        <mj-text mj-class="image__content__ul__wrapper">
+          <ul style="padding:0px 40px">
+            <li>
+
+              Developed with Oxford.
+            </li>
+
+            <li>
+              With a micronutrient complex that
+              <span style="font-weight: bold;">slows age-related gray matter atrophy in regions important for learning and memory</span>.
+
+            </li>
+
+
+            <li>
+              Supports and maintains cognitive function and memory.
+
+            </li>
+          </ul>
+        </mj-text>
+
+
+      </mj-column>
+    </mj-section>
+
+    <!-- end product -->
+
+    <!-- product -->
+    <mj-section mj-class="image__section">
+      <mj-column mj-class="image__column">
+        <mj-image padding="0" src="https://d3k81ch9hvuctc.cloudfront.net/company/R8xQKv/images/a679992a-4821-4768-9b37-2b4dd931ef31.png" alt="Format" />
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="image__content__section">
+      <mj-column mj-class="image__content__column">
+        <mj-spacer height="10px" />
+        <mj-text mj-class="image__content__title">
+          Format
+        </mj-text>
+
+        <mj-text mj-class="image__content__ul__wrapper">
+          <ul style="padding:0px 40px">
+            <li>
+              Innovative system for
+              <span style="font-weight: bold;">complete immune support</span> and immune aging.
+            </li>
+
+            <li>
+              <span style="font-weight: bold;">Clears the build-up of senescent cells</span> that contribute to inflammation.
+
+            </li>
+
+
+            <li>
+              Format Delivers 100% of your daily vitamin C (90 mg), plus selenium (27 mcg) and zinc (5.5 mg).
+
+            </li>
+          </ul>
+        </mj-text>
+
+
+      </mj-column>
+    </mj-section>
+
+    <!-- end product -->
+
+
+
+    <mj-section background-color="#f1f4f6">
+      <mj-column width="100%">
+        <mj-text font-size="25px" align="center">
+          Why our customers love us:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section mj-class="quote">
+      <mj-column mj-class="quote__column">
+
+
+        <mj-image mj-class="quote__sign" src="https://d3k81ch9hvuctc.cloudfront.net/company/R8xQKv/images/d8fc9938-34ae-4758-a59b-97848863c74e.png" alt="quote" />
+
+
+        <mj-text mj-class="quote__text">
+
+          I love knowing I’m giving my body everything it needs to stay healthy with Elysium. Proactive health is where I put my energy, and this product keeps me active and focused and learning! I feel great!
+
+        </mj-text>
+
+        <mj-image mj-class="quote__stars" src="https://d3k81ch9hvuctc.cloudfront.net/company/R8xQKv/images/b682da75-2a5b-4cb9-9c48-c7b48d132cec.png" alt="stars" />
+
+        <mj-text mj-class="qoute__author">
+          Pamela
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="quote">
+      <mj-column mj-class="quote__column">
+
+
+        <mj-image mj-class="quote__sign" src="https://d3k81ch9hvuctc.cloudfront.net/company/R8xQKv/images/d8fc9938-34ae-4758-a59b-97848863c74e.png" alt="quote" />
+
+
+        <mj-text mj-class="quote__text">
+          <div style=" background-color:#cceafe; padding:30px">
+            After taking control over my personal health and exploring studies and trials on supplements and general health I noticed a repeating theme on general health and I believe Elysium supplements address these items in an optimal way. High quality products and science-based results.</div>
+
+
+
+        </mj-text>
+
+        <mj-image mj-class="quote__stars" src="https://d3k81ch9hvuctc.cloudfront.net/company/R8xQKv/images/b682da75-2a5b-4cb9-9c48-c7b48d132cec.png" alt="stars" />
+
+        <mj-text mj-class="qoute__author">
+          David
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+
+
+    <!-- footer -->
+
+    <mj-section background-color="#000000">
+      <mj-column width="100%">
+        <mj-image src="https://d3k81ch9hvuctc.cloudfront.net/company/R8xQKv/images/12312380-5261-4359-bb00-0548a2cd2f53.png" alt="Logo" width="21px" align="left" />
+
+        <mj-spacer height="15px" />
+        <mj-text color="#bfbfbf">
+
+          © 2022 Elysium Health Inc., 434&nbsp;Broadway, Floor&nbsp;2, New&nbsp;York,&nbsp;NY&nbsp;10013
+        </mj-text>
+
+
+        <mj-text>
+          <a href="#" style="text-decoration:none;color:#BFBFBF;">25412345678</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#" style="text-decoration:underline;color:#BFBFBF;">care@h.com</a> <span class="em_mob_block"></span><span class="em_hide1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a href="#" style="text-decoration:underline;color:#BFBFBF;" target="_blank">Unsubscribe</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#" style="text-decoration:underline;color:#BFBFBF; white-space: nowrap;" target="_blank">View in Your Browser</a>
+        </mj-text>
+
+        <mj-text color="#bfbfbf">
+          These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease, and is intended for healthy adults, 18 years of age or older. Do not take this product if you are pregnant or nursing.
+        </mj-text>
+
+        <mj-text color="#bfbfbf">
+
+
+          *Promo code is valid only for monthly subscriptions of Basis, Matter, Format, and Signal. Valid on new purchases only and applies to first shipment only. Offer expires 04/04/22 at 11:59PM PST.
+
+
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
