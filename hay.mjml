@@ -1,0 +1,368 @@
+<mjml>
+  <mj-head>
+
+    <!-- fonts -->
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-font name="Libre Baskerville" href="https://fonts.googleapis.com/css?family=Libre+Baskerville" />
+
+
+
+    <mj-attributes>
+      <!-- globals -->
+      <mj-section background-color="#fcf5e4" />
+
+      <!-- colors -->
+      <mj-class name="m-dark" color="#2c2b2a" />
+      <mj-class name="gray-1" color="#716a62" />
+      <mj-class name="gray-2" color="#44423d" />
+      <mj-class name="primary" background-color="#65301e" />
+
+      <!-- elements -->
+      <mj-class name="heading-1" mj-class="gray-2" font-size="30px" align="center" font-family="Libre Baskerville" />
+
+      <mj-class name="heading-2" mj-class="gray-2" font-weight="bold" font-size="15px" align="center" font-family="Roboto" />
+
+      <mj-class name="heading-3" mj-class="gray-2" font-weight="semi-bold" font-size="14px" align="center" font-family="Roboto" />
+
+      <mj-class name="follow-text" font-weight="semi-bold" align="center" font-size="16px" line-height="1.4" font-family="Roboto" />
+
+      <mj-class name="slim-img" width="450px" />
+      <mj-class name="item-col" background-color="#f7e7c7" padding-bottom="25px" />
+
+    </mj-attributes>
+
+
+    <mj-style>
+      @media only screen and (max-width: 500px) {
+      .has__heading-1 div {
+      font-size: 24px !important;
+      line-height: 1.4 !important;
+
+      }
+
+      .has__heading-2 div {
+      font-size: 14px !important;
+      line-height: 1.4 !important;
+
+
+      }
+      .has__title div {
+      font-size: 28px !important;
+
+      }
+
+      .has__follow__text div {
+      font-size: 14px !important;
+
+      }
+
+      .has__items > table > tbody > tr > td {
+
+      padding: 0px 20px 0px 20px !important;
+      }
+
+      .has__item__col table tbody tr td table tbody tr td {
+      width: 80% !important;
+      }
+
+      br{
+      display: none;
+      }
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#e4e4e4">
+
+    <mj-section>
+      <mj-column>
+
+        <mj-spacer height="30px" />
+
+        <!-- logo -->
+        <mj-image src="https://image.hayemails.com/lib/fe5c15707c6c06797c16/m/1/8b6327ee-e2c6-4a85-b0ed-ed32173d362f.png" alt="logo" width="120px" />
+
+        <mj-spacer height="25px" />
+
+        <!-- sale -->
+        <mj-text css-class="has__title" mj-class="m-dark" padding="0px" align="center" font-size="40px" font-weight="bold">
+          THE AUTUMN SALE
+        </mj-text>
+
+        <!-- Save -->
+        <mj-text mj-class="gray-1" align="center">
+          Save 15% sitewide. Plus, enjoy free shipping on accessories
+        </mj-text>
+
+
+        <!-- cta -->
+        <mj-button mj-class="primary" font-weight="bold" font-size="15px" inner-padding="16px 25px">
+          SHOP THE SALE
+        </mj-button>
+
+        <!-- image 1-->
+        <mj-image src="https://image.hayemails.com/lib/fe5c15707c6c06797c16/m/2/8c68c7c0-9bcf-4a16-b967-f503dc4465a7.jpg" alt="mail-image" mj-class="slim-img" />
+
+
+        <mj-text css-class="has__follow__text" mj-class="follow-text">
+          When temperatures fall,its time to cozy up indoors.<br>Sink into a comfortable seat and delight in longer nights to <br>get lost in a book or catch up with loved ones.
+        </mj-text>
+
+        <mj-spacer height="20px" />
+
+
+        <!-- image 2-->
+
+        <mj-image src="https://image.hayemails.com/lib/fe5c15707c6c06797c16/m/2/88b1872f-afd4-4db4-9782-53ebd38a1092.jpg" alt="" />
+
+
+        <mj-text css-class="has__heading-1" mj-class="heading-1">
+          ARBOUR SOFA
+        </mj-text>
+
+        <mj-text css-class="has__heading-2" mj-class="heading-2">
+          DESIGNED BY ANDREAS ENGESVISK AND DANIEL RYBYAKKEN
+        </mj-text>
+
+        <mj-text css-class="has__follow__text" mj-class="follow-text">
+          With an architectual distinct scaffold frame topped <br>
+          with plush cushions ,the expertly crafted Arbour Sofa <br>is inviting a spot to unplug and unwind
+        </mj-text>
+        <mj-spacer height="20px" />
+
+        <!-- image 3-->
+        <mj-image src="https://image.hayemails.com/lib/fe5c15707c6c06797c16/m/2/1f6e0fdc-dd0b-4ffd-8993-1596a95808f7.jpg" alt="" mj-class="slim-img" />
+
+        <mj-text css-class="has__heading-1" mj-class="heading-1">
+          PANDARINE SOFA
+        </mj-text>
+
+        <mj-text css-class="has__heading-2" mj-class="heading-2">
+          DESIGNED BY AINGA SEMPE
+        </mj-text>
+
+        <mj-text css-class="has__follow__text" mj-class="follow-text">
+          Pandarine reimagines lounging, fusing the comfort of a bed <br> with the versatility of modular sofa in an elegant design.<br>Its plush pillow-like back cushions can be folded down, inviting you to lounge, nap, work or sit just how you like.
+        </mj-text>
+
+        <mj-spacer height="20px" />
+        <!-- image 4-->
+        <mj-image src="https://image.hayemails.com/lib/fe5c15707c6c06797c16/m/2/164c477b-291b-4ace-9e44-efa5fb7b2e41.jpg" alt="" />
+
+        <mj-text css-class="has__heading-1" mj-class="heading-1">
+          MAGS SOFT LOW SECTION
+        </mj-text>
+
+
+        <mj-text css-class="has__follow__text" mj-class="follow-text">
+          Low, deep, and welcoming, the modular Mags Soft Low <br>
+          features durable, high-density down wrapped foam <br> cushions to ensure lasting confort.
+        </mj-text>
+
+        <mj-spacer height="20px" />
+
+
+        <!-- image 5-->
+        <mj-image src="https://image.hayemails.com/lib/fe5c15707c6c06797c16/m/2/534dc128-12a4-4fc4-b8d1-d419593a9372.jpg" alt="" mj-class="slim-img" />
+
+        <mj-text css-class="has__heading-1" mj-class="heading-1">
+          DORSO LOUNGE CHAIR
+        </mj-text>
+
+        <mj-text css-class="has__heading-2" mj-class="heading-2">
+          DESIGNED BY GAMFRATSI FOR HAY
+        </mj-text>
+
+        <mj-text css-class="has__follow__text" mj-class="follow-text">
+          Inspied by shifting curves of the human torso in <br>motion, the space-savvy Dorso pairs enveloping comfort <br> with a smooth swivel base that rotates 360 degrees.
+        </mj-text>
+
+
+      </mj-column>
+
+
+
+    </mj-section>
+
+
+
+    <mj-section css-class="has__items" padding="0px 50px">
+      <mj-column background-color="#f7e7c7" border-radius="5px" padding="20px 0px">
+
+        <mj-text css-class="has__heading-1" mj-class="heading-1">
+          DORSO LOUNGE CHAIR
+        </mj-text>
+
+        <mj-image src="https://image.hayemails.com/lib/fe5c15707c6c06797c16/m/2/c4e4f8de-6dba-4db5-a1ea-0704f1d60959.jpg" alt="" padding="0px 50px" />
+
+        <mj-spacer height="15px" />
+
+        <mj-text css-class="has__heading-2" mj-class="heading-2">
+          Save 15% on the About A Lounge Collection
+        </mj-text>
+
+        <mj-text css-class="has__follow__text" mj-class="follow-text">
+          Available in wide range of fabrics, colours,<br>and finishes, the About A Lounge Collection <br>includes options for every room of the house.
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="has__items" padding="0px 50px">
+
+
+
+      <!-- column 1 -->
+      <mj-column css-class="has__item__col" mj-class="item-col">
+
+        <!-- item -->
+        <mj-image src="https://s7d2.scene7.com/is/image/Hay/test_adobesupport?$image_src=Hay/AAL_82_Low_Back_Wood_Base_100127960_Front&$b2c_510x510_jpeg$" alt="" />
+
+        <mj-text mj-class="heading-3">
+          About A Lounge 92 ARMCHAIR
+        </mj-text>
+
+
+
+        <!-- item -->
+        <mj-image src="https://s7d2.scene7.com/is/image/Hay/test_adobesupport?$image_src=Hay/AAL_82_Low_Back_Wood_Base_100127960_Front&$b2c_510x510_jpeg$" alt="" />
+
+        <mj-text mj-class="heading-3">
+          About A Lounge 92
+        </mj-text>
+
+
+
+
+
+
+
+      </mj-column>
+
+
+      <!-- column 2 -->
+      <mj-column css-class="has__item__col" mj-class="item-col">
+
+        <!-- item -->
+        <mj-image src="https://s7d2.scene7.com/is/image/Hay/test_adobesupport?$image_src=Hay/AAL_03_Ottoman_100153820_Front&$b2c_510x510_jpeg$" alt="" />
+
+        <mj-text mj-class="heading-3">
+          About A Lounge 03 OTTOMAN
+        </mj-text>
+
+
+
+        <!-- item -->
+        <mj-image src="https://s7d2.scene7.com/is/image/Hay/test_adobesupport?$image_src=Hay/AAL_82_Bundle_100163130_Front&$b2c_510x510_jpeg$" alt="" />
+
+        <mj-text mj-class="heading-3">
+          About A Lounge 82 OTTOMAN
+        </mj-text>
+
+
+
+
+
+
+
+      </mj-column>
+
+
+      <!-- column 3 -->
+      <mj-column css-class="has__item__col" mj-class="item-col">
+
+        <!-- item -->
+        <mj-image src="https://s7d2.scene7.com/is/image/Hay/test_adobesupport?$image_src=Hay/AAL_81_Swivel_100136376_Front&$b2c_510x510_jpeg$" alt="" />
+
+        <mj-text mj-class="heading-3">
+          About A Lounge 81 SWIVEL CHAIR
+        </mj-text>
+
+
+
+        <!-- item -->
+        <mj-image src="https://s7d2.scene7.com/is/image/Hay/test_adobesupport?$image_src=Hay/AAL_82_Low_Back_Wood_Base_100127960_Front&$b2c_510x510_jpeg$" alt="" />
+
+        <mj-text mj-class="heading-3">
+          About A Lounge 82 ARMCHAIR
+        </mj-text>
+
+      </mj-column>
+
+
+
+    </mj-section>
+
+
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="20px" />
+
+
+        <mj-image src="https://image.hayemails.com/lib/fe5c15707c6c06797c16/m/2/555927e2-d93d-4fb2-91dd-4c48c6e8f045.jpg" alt="" />
+
+        <mj-text css-class="has__heading-1" mj-class="heading-1">
+          THAT AUTUNM FEELING
+        </mj-text>
+
+
+
+        <mj-text css-class="has__follow__text" mj-class="follow-text">
+          Toss on extra coziness and color in every corner of your home with soft <br>cushions and throws. All accesories ship free.
+        </mj-text>
+
+
+
+
+        <!-- footer -->
+        <mj-spacer height="80px" />
+
+        <!-- logo -->
+        <mj-image src="https://image.hayemails.com/lib/fe5c15707c6c06797c16/m/1/8b6327ee-e2c6-4a85-b0ed-ed32173d362f.png" alt="logo" width="80px" />
+
+
+        <!-- social -->
+
+        <mj-social font-size="15px" icon-size="50px" mode="horizontal">
+
+          <mj-social-element src="http://image.hayemails.com/lib/fe5c15707c6c06797c16/m/1/684709db-247a-4742-9a85-8180c8b8d774.png" href="https://mjml.io/">
+          </mj-social-element>
+
+          <mj-social-element src="http://image.hayemails.com/lib/fe5c15707c6c06797c16/m/1/a209a896-7ee2-47ad-9600-e9980e5dac7d.png" href="https://mjml.io/">
+          </mj-social-element>
+
+          <mj-social-element src="http://image.hayemails.com/lib/fe5c15707c6c06797c16/m/1/1a02ccd0-2413-4e01-9012-825d81333df9.png" href="https://mjml.io/">
+          </mj-social-element>
+
+        </mj-social>
+
+        <mj-text mj-class="gray-2" align="center">
+          This email was sent by HAY Headquaters at <br>
+          <b>711 Str 3rd Fl.,Stamford CT28282</b>
+        </mj-text>
+
+        <mj-text mj-class="gray-2" align="center">
+          &copy;2022 HAY.All Rights Reserved.
+        </mj-text>
+
+        <mj-text mj-class="gray-2" align="center">
+          <a href="" style="color:#2c2b2a;font-weight:semi-bold">Privacy Policy</a> |
+          <a href="" style="color:#2c2b2a;font-weight:semi-bold">Condition Of Use</a> |
+          <a href="" style="color:#2c2b2a;font-weight:semi-bold">Unsubscribe</a>
+        </mj-text>
+
+        <mj-text mj-class="gray-2" align="center" line-height="1.4">
+          The Easy Upgrades Sale runs September 1&ndash;7, 2020. Save 15% on select upgrades for every room in the home. Discount applies to merchandise only, excluding Gift Cards, taxes, and shipping. Offer is nontransferable and cannot be combined with other promotions or discounts, nor applied to past purchases or future deliveries.
+
+        </mj-text>
+
+        <mj-spacer height="30px" />
+
+      </mj-column>
+
+    </mj-section>
+
+
+
+  </mj-body>
+</mjml>
