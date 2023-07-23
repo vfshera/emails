@@ -1,0 +1,49 @@
+---
+title: "New Contact"
+preheader: "You have a message from ..."
+bodyClass: bg-slate-50
+domain: https://vfshera.com
+name: vfshera
+signature: Franklin Shera
+---
+
+<x-main>
+  <div class="bg-slate-50 sm:px-4 font-space-grotesk">
+    <table align="center">
+      <tr>
+        <td class="w-[552px] max-w-full">
+          <div class="py-12 sm:py-8 text-center bg-white mt-8">
+            <a href="{{page.domain}}" class="text-2xl no-underline">
+              <img src="images/vfshera.png" width="50" alt="{{page.name}}" />
+            </a>
+            <span class="text-[#1E293B] block mt-1 text-2xl"
+              >{{page.name}}</span
+            >
+          </div>
+          <div class="h-px leading-px bg-slate-300" role="separator">&zwj;</div>
+          <table class="w-full">
+            <tr>
+              <td
+                class="p-12 sm:px-6 text-base text-slate-700 bg-white rounded shadow-sm"
+              >
+                <p class="m-0 leading-6">
+                  I'm thrilled to propose a web development project tailored to
+                  elevate your business online. Key features include a modern
+                  design, intuitive navigation, SEO optimization, and robust
+                  security. Estimated timeline and budget have been considered
+                  to ensure a successful partnership. Looking forward to your
+                  response and the opportunity to collaborate.
+                </p>
+
+                <x-spacer height="24px" />
+
+                <p class="m-0">by : {{}}</p>
+                <p class="m-0">at : {{}}</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+</x-main>

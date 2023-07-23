@@ -1,0 +1,50 @@
+---
+title: "Thanks for contacting us"
+preheader: "Thanks for contacting us"
+bodyClass: bg-slate-50
+domain: https://vfshera.com
+name: vfshera
+signature: Franklin Shera
+---
+
+<x-main>
+  <div class="bg-slate-50 sm:px-4 font-space-grotesk">
+    <table align="center">
+      <tr>
+        <td class="w-[552px] max-w-full">
+          <div class="py-12 sm:py-8 text-center bg-white mt-8">
+            <a href="{{page.domain}}" class="text-2xl no-underline">
+              <img src="images/vfshera.png" width="50" alt="{{page.name}}" />
+            </a>
+            <span class="text-[#1E293B] block mt-1 text-2xl"
+              >{{page.name}}</span
+            >
+          </div>
+          <div class="h-px leading-px bg-slate-300" role="separator">&zwj;</div>
+          <table class="w-full">
+            <tr>
+              <td
+                class="p-12 sm:px-6 text-base text-slate-700 bg-white rounded shadow-sm"
+              >
+                <h1
+                  class="m-0 mb-6 text-2xl sm:leading-8 text-black font-semibold"
+                >
+                  Hi {{}},
+                </h1>
+
+                <p class="m-0 leading-6">
+                  Thanks for contacting us through our website.<br />
+                  I'll get back to you shortly.
+                </p>
+
+                <x-spacer height="24px" />
+
+                <p class="m-0">Best regards, <br />{{page.signature}}</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+</x-main>
